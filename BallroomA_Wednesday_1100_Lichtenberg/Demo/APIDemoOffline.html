@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>API Demo (Offline)</title>
+<link rel="stylesheet" type="text/css" href="Files/demo.css" />
+</head>
+<body>
+	<header>
+		<img class="logoimage" src="Files/BHLLogo.gif" />
+	</header>
+	<div class="pagetitle">
+		<h1>API Examples</h1>
+	</div>
+	<div class="pagebody">
+		<!--
+		<p>
+			<h3>Book Search</h3>
+			<div><a href="Offline/APIBookSearch.xml">http://www.biodiversitylibrary.org/api2/httpquery.ashx?<span class="highlight">op=BookSearch&title=origin+of+species&year=1859</span>&apikey=APIKEYVALUE</a></div>
+		</p>
+		<p>
+			<h3>Name Search</h3>
+			<div><a href="Offline/APINameSearch.xml"> http://www.biodiversitylibrary.org/api2/httpquery.ashx?<span class="highlight">op=NameSearch&name=poa+annua</span>&apikey=APIKEYVALUE</a></div>
+		</p>
+		<p>
+			<h3>Item Metadata</h3>
+			<div><a href="Offline/APIItemMetadata.xml">http://www.biodiversitylibrary.org/api2/httpquery.ashx?<span class="highlight">op=GetItemMetadata&itemid=16800</span>&pages=f&ocr=f&parts=f&apikey=APIKEYVALUE</a></div>
+		</p>
+		-->
+		<p>
+			<h3>Item Metadata including pages and text</h3>
+			<div>
+				<a href="Offline/APIItemMetadataWithPages.xml">
+					http://www.biodiversitylibrary.org/api2/httpquery.ashx
+					<div style="margin-left:50px">?op=GetItemMetadata</div>
+					<div style="margin-left:50px">&itemid=16800</div>
+					<div style="margin-left:50px">&pages=t</div>
+					<div style="margin-left:50px">&ocr=t</div>
+					<div style="margin-left:50px">&parts=f</div>
+					<div style="margin-left:50px">&apikey=APIKEYVALUE</div>
+				</a>
+			</div>
+		</p>
+		<!--
+		<p>
+			<h3>XML Response</h3>
+			<div><a href="Offline/APIXML.xml">http://www.biodiversitylibrary.org/api2/httpquery.ashx?op=GetStats&apikey=APIKEYVALUE</a></div>
+		</p>
+		-->
+		<p>
+			<h3>JSON Response</h3>
+			<div>
+				<a href="Offline/APIJSON.json">
+					http://www.biodiversitylibrary.org/api2/httpquery.ashx
+					<div style="margin-left:50px">?op=GetStats</div>
+					<div style="margin-left:50px">&apikey=APIKEYVALUE</div>
+					<div style="margin-left:50px"><span class="highlight">&format=json</span></div>
+				</a>
+			</div>
+		</p>
+		<!--
+		<p>
+			<h3>Page Metadata including text and names</h3>
+			<div><a href="Offline/APIPageMetadata.xml">http://www.biodiversitylibrary.org/api2/httpquery.ashx?op=GetPageMetadata&pageid=1328690&ocr=t&names=t&apikey=APIKEYVALUE</a></div>
+		</p>
+		<p>
+			<h3>Page Text</h3>
+			<div><a href="Offline/APIOCR.xml">http://www.biodiversitylibrary.org/api2/httpquery.ashx?op=GetPageOcrText&pageid=1328690&apikey=APIKEYVALUE</a></div>
+		</p>
+		<p>
+			<h3>Name Metadata</h3>
+			<div><a href="Offline/APINameMetadata.xml">http://www.biodiversitylibrary.org/api2/httpquery.ashx?op=NameGetDetail&name=strix+varia&apikey=APIKEYVALUE</a></div>
+		</p>
+		-->
+	</div>
+</body>
+</html>

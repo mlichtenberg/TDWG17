@@ -1,0 +1,87 @@
+<OAI-PMH
+xmlns="http://www.openarchives.org/OAI/2.0/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2017-08-30T21:06:39Z</responseDate>
+<request verb="GetRecord" metadataPrefix="mods" identifier="oai:biodiversitylibrary.org:item/7">
+http://www.biodiversitylibrary.org/oai
+</request>
+<GetRecord>
+	<record>
+		<header>
+			<identifier>oai:biodiversitylibrary.org:item/7</identifier>
+			<datestamp>2016-07-13T09:13:41Z</datestamp>
+			<setSpec>item</setSpec>
+		</header>
+		<metadata>
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" version="3.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+<titleInfo>
+	<title>Die Musci der Flora von Buitenzorg : zugleich Laubmoosflora von Java / bearbeitet von Max Fleischer ; Enthaltend alle aus Java bekannt gewordenden Sphagnales und Bryales, nebst kritischen Bemerkungen vieler Archipelarten, sowie, indischer und australischer Arten.</title>
+</titleInfo>
+<name type="personal">
+	<namePart>Fleischer, Max,</namePart>
+	<namePart type="date">1861-1930</namePart>
+	<role>		<roleTerm type="text">creator</roleTerm>
+</role>
+</name>
+<typeOfResource>text</typeOfResource>
+<genre authority="marcgt">book</genre>
+<note type="ownership">Missouri Botanical Garden, Peter H. Raven Library</note>
+<note type="content">pt.5:v.1 (1900-1902)</note>
+<originInfo>
+	<place>
+		<placeTerm type="text">Leiden :</placeTerm>
+	</place>
+	<publisher>E.J. Brill,</publisher>
+	<dateIssued>1900-1922.</dateIssued>
+	<dateIssued encoding="marc" point="start">1900</dateIssued>
+	<dateIssued encoding="marc" point="end">1922</dateIssued>
+	<dateOther type="issueDate" keyDate="yes">1900-1902</dateOther>
+</originInfo>
+<part>
+	<detail type="volume">
+		<number>pt.5:v.1 (1900-1902)</number>
+	</detail>
+	<date>1900-1902</date>
+</part>
+<physicalDescription>
+	<form authority="marcform">print</form>
+</physicalDescription><language>
+	<languageTerm authority="iso639-2b" type="text">Dutch</languageTerm>
+</language>
+<subject>
+	<geographic>Bogor</geographic>
+</subject>
+<subject>
+	<geographic>Indonesia</geographic>
+</subject>
+<subject>
+	<topic>Musci</topic>
+</subject>
+<classification authority="lcc">QK548.J39 F71</classification>
+<relatedItem type="series">
+<titleInfo>
+	<title>Flore de Buitenzorg ;  pt. 5.</title>
+</titleInfo>
+</relatedItem>
+<identifier type="uri">http://www.biodiversitylibrary.org/item/7</identifier>
+<identifier type="oclc">2497085</identifier>
+<identifier type="doi">10.5962/bhl.title.44870</identifier>
+<location>
+	<physicalLocation>Missouri Botanical Garden, Peter H. Raven Library</physicalLocation>
+	<url access="raw object" usage="primary">http://www.biodiversitylibrary.org/item/7</url>
+	<url access="object in context" usage="primary display">http://www.biodiversitylibrary.org/pagethumb/600316</url>
+	<holdingSimple>
+		<copyInformation>
+			<enumerationAndChronology>pt.5:v.1 (1900-1902)</enumerationAndChronology>
+		</copyInformation>
+	</holdingSimple>
+</location>
+<accessCondition type="useAndReproduction">Public domain.  The BHL considers that this work is no longer under copyright protection.</accessCondition>
+<recordInfo>
+	<recordContentSource authority="marcorg">AAA</recordContentSource>
+</recordInfo>
+</mods>
+		</metadata>
+	</record>
+</GetRecord></OAI-PMH>

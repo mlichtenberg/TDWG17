@@ -1,0 +1,75 @@
+<OAI-PMH
+xmlns="http://www.openarchives.org/OAI/2.0/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2017-08-30T21:04:54Z</responseDate>
+<request verb="ListSets">
+http://www.biodiversitylibrary.org/oai
+</request>
+<ListSets>
+	<set>
+		<setSpec>item</setSpec>
+		<setName>BHL-hosted volumes</setName>
+		<setDescription>
+			<oai_dc:dc
+				xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+				<dc:description>This set contains individual volumes hosted by BHL.  The content is viewable in BHL.</dc:description>
+			</oai_dc:dc>
+		</setDescription>
+	</set>
+	<set>
+		<setSpec>itemexternal</setSpec>
+		<setName>External volumes</setName>
+		<setDescription>
+			<oai_dc:dc
+				xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+				<dc:description>This set contains individual volumes not hosted by BHL.  The content must be viewed on a site not maintained by BHL.</dc:description>
+			</oai_dc:dc>
+		</setDescription>
+	</set>
+	<set>
+		<setSpec>title</setSpec>
+		<setName>Monographs/Journals</setName>
+		<setDescription>
+			<oai_dc:dc
+				xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+				<dc:description>This set contains the monographs and journals represented in BHL.</dc:description>
+			</oai_dc:dc>
+		</setDescription>
+	</set>
+	<set>
+		<setSpec>part</setSpec>
+		<setName>BHL-hosted articles/chapters/treatments/etc</setName>
+		<setDescription>
+			<oai_dc:dc
+				xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+				<dc:description>This set contains articles/chapters/treatments/etc hosted by BHL.  The content is viewable in BHL.</dc:description>
+			</oai_dc:dc>
+		</setDescription>
+	</set>
+	<set>
+		<setSpec>partexternal</setSpec>
+		<setName>External articles/chapters/treatments/etc</setName>
+		<setDescription>
+			<oai_dc:dc
+				xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+				<dc:description>This set contains articles/chapters/treatments/etc not hosted by BHL.  The content must be viewed on a site not maintained by BHL.</dc:description>
+			</oai_dc:dc>
+		</setDescription>
+	</set>
+</ListSets></OAI-PMH>

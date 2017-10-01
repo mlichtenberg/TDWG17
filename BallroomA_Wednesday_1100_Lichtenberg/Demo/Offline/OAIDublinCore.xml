@@ -1,0 +1,35 @@
+<OAI-PMH
+xmlns="http://www.openarchives.org/OAI/2.0/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2017-08-30T21:06:27Z</responseDate>
+<request verb="GetRecord" metadataPrefix="oai_dc" identifier="oai:biodiversitylibrary.org:item/7">
+http://www.biodiversitylibrary.org/oai
+</request>
+<GetRecord>
+	<record>
+		<header>
+			<identifier>oai:biodiversitylibrary.org:item/7</identifier>
+			<datestamp>2016-07-13T09:13:41Z</datestamp>
+			<setSpec>item</setSpec>
+		</header>
+		<metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ &#13;&#10;&#9;&#9;&#9;&#9;http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>Die Musci der Flora von Buitenzorg : zugleich Laubmoosflora von Java / bearbeitet von Max Fleischer ; Enthaltend alle aus Java bekannt gewordenden Sphagnales und Bryales, nebst kritischen Bemerkungen vieler Archipelarten, sowie, indischer und australischer Arten.</dc:title>
+<dc:creator>Fleischer, Max,      1861-1930</dc:creator>
+<dc:subject>Bogor</dc:subject>
+<dc:subject>Indonesia</dc:subject>
+<dc:subject>Musci</dc:subject>
+<dc:description>pt.5:v.1 (1900-1902)</dc:description>
+<dc:publisher>Leiden :E.J. Brill,1900-1922.</dc:publisher>
+<dc:contributor>Missouri Botanical Garden, Peter H. Raven Library</dc:contributor>
+<dc:date>1900-1902</dc:date>
+<dc:type>text</dc:type>
+<dc:type>Book</dc:type>
+<dc:identifier>http://www.biodiversitylibrary.org/item/7</dc:identifier>
+<dc:language>Dutch</dc:language>
+<dc:rights>Public domain.  The BHL considers that this work is no longer under copyright protection.</dc:rights>
+</oai_dc:dc>
+		</metadata>
+	</record>
+</GetRecord></OAI-PMH>

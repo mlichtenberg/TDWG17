@@ -1,0 +1,9 @@
+body { margin:0px;padding:0px;border:0px;background:#f6ede2;font:28px Arial, Times, serif }
+header { background:#FFFFFF;padding:10px }
+a:link { color: 0066CC;}
+a:visited { color: 0066CC; }
+h1 { margin:0;width:980px;margin-left:75px;color:#FFFFFF;padding:8px }
+.logoimage { display:block;margin-left:auto;margin-right:auto }
+.pagetitle { height:75px;background:#3e90c8; }
+.pagebody { width:980px;margin-left:75px;margin-top:50px; }
+.highlight { color:red }
